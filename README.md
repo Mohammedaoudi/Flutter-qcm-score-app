@@ -22,12 +22,12 @@ A simple Flutter application that allows users to take a multiple-choice questio
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/flutter-quiz-app.git
+git clone https://github.com/Mohammedaoudi/Flutter-qcm-score-app.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd flutter-quiz-app
+cd Flutter-qcm-score-app
 ```
 
 3. Install dependencies:
@@ -42,7 +42,7 @@ flutter run
 
 ## Demo Video
 
-https://github.com/yourusername/flutter-quiz-app/assets/demo.mp4
+https://github.com/user-attachments/assets/b14a18eb-1cf8-4e3f-9f2a-a6fb6b23a633
 
 The demo video shows:
 1. Opening the app and entering a user name
@@ -51,22 +51,6 @@ The demo video shows:
 4. Viewing the final score and results summary
 5. Restarting the quiz
 
-## Project Structure
-
-```
-lib/
-├── main.dart
-├── models/
-│   ├── question.dart
-│   └── quiz_result.dart
-├── screens/
-│   ├── home_screen.dart
-│   ├── quiz_screen.dart
-│   └── result_screen.dart
-└── widgets/
-    ├── answer_button.dart
-    └── question_card.dart
-```
 
 ## Usage
 
@@ -77,32 +61,9 @@ lib/
 5. Submit your answers to view your final score
 6. Choose to retry the quiz or exit the app
 
-## Customization
+## Key Files
 
-### Adding New Questions
-
-To add new questions, modify the `assets/questions.json` file:
-
-```json
-{
-  "questions": [
-    {
-      "text": "Your question here?",
-      "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
-      ],
-      "correctAnswer": 0
-    }
-  ]
-}
-```
-
-### Modifying Styles
-
-Theme colors and styles can be adjusted in `lib/theme/app_theme.dart`.
+- `lib/screens/quizz/Questions.dart`: Contains the Question class definition and quiz questions data
 
 ## Contributing
 
@@ -115,8 +76,3 @@ Theme colors and styles can be adjusted in `lib/theme/app_theme.dart`.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Flutter team for the amazing framework
-- Contributors who have participated in this project
